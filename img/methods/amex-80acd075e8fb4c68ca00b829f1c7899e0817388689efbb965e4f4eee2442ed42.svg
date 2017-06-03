@@ -1,0 +1,39 @@
+<svg width="80" height="26" viewBox="0 0 80 26" xmlns="http://www.w3.org/2000/svg">
+    <title>amex</title>
+    <defs>
+        <radialGradient cx="-261.467%" cy="-190.486%" fx="-261.467%" fy="-190.486%" r="1050.482%" id="a"><stop stop-color="#00B1E7" offset="0%"/><stop stop-color="#0098CD" offset="42.7%"/><stop stop-color="#008DBE" offset="52.44%"/><stop stop-color="#006C91" offset="84.03%"/><stop stop-color="#005F80" offset="100%"/></radialGradient>
+        <radialGradient cx="-145.749%" cy="-188.432%" fx="-145.749%" fy="-188.432%" r="374.244%" id="b"><stop stop-color="#00B1E7" offset="0%"/><stop stop-color="#0098CD" offset="42.7%"/><stop stop-color="#008DBE" offset="52.44%"/><stop stop-color="#006C91" offset="84.03%"/><stop stop-color="#005F80" offset="100%"/></radialGradient>
+        <radialGradient cx="45.039%" cy="-190.88%" fx="45.039%" fy="-190.88%" r="390.302%" id="c"><stop stop-color="#00B1E7" offset="0%"/><stop stop-color="#0098CD" offset="42.7%"/><stop stop-color="#008DBE" offset="52.44%"/><stop stop-color="#006C91" offset="84.03%"/><stop stop-color="#005F80" offset="100%"/></radialGradient>
+        <radialGradient cx="-192.846%" cy="-190.886%" fx="-192.846%" fy="-190.886%" r="1243.351%" id="d"><stop stop-color="#00B1E7" offset="0%"/><stop stop-color="#0098CD" offset="42.7%"/><stop stop-color="#008DBE" offset="52.44%"/><stop stop-color="#006C91" offset="84.03%"/><stop stop-color="#005F80" offset="100%"/></radialGradient>
+        <radialGradient cx="-1367.889%" cy="-190.234%" fx="-1367.889%" fy="-190.234%" r="3855.85%" id="e"><stop stop-color="#00B1E7" offset="0%"/><stop stop-color="#0098CD" offset="42.7%"/><stop stop-color="#008DBE" offset="52.44%"/><stop stop-color="#006C91" offset="84.03%"/><stop stop-color="#005F80" offset="100%"/></radialGradient>
+        <radialGradient cx="-365.943%" cy="-359.756%" fx="-365.943%" fy="-359.756%" r="1050.388%" id="f"><stop stop-color="#00B1E7" offset="0%"/><stop stop-color="#0098CD" offset="42.7%"/><stop stop-color="#008DBE" offset="52.44%"/><stop stop-color="#006C91" offset="84.03%"/><stop stop-color="#005F80" offset="100%"/></radialGradient>
+        <radialGradient cx="-26.629%" cy="-358.982%" fx="-26.629%" fy="-358.982%" r="373.063%" id="g"><stop stop-color="#00B1E7" offset="0%"/><stop stop-color="#0098CD" offset="42.7%"/><stop stop-color="#008DBE" offset="52.44%"/><stop stop-color="#006C91" offset="84.03%"/><stop stop-color="#005F80" offset="100%"/></radialGradient>
+        <radialGradient cx="-631.474%" cy="-360.268%" fx="-631.474%" fy="-360.268%" r="1161.668%" id="h"><stop stop-color="#00B1E7" offset="0%"/><stop stop-color="#0098CD" offset="42.7%"/><stop stop-color="#008DBE" offset="52.44%"/><stop stop-color="#006C91" offset="84.03%"/><stop stop-color="#005F80" offset="100%"/></radialGradient>
+        <radialGradient cx="-565.005%" cy="-361.006%" fx="-565.005%" fy="-361.006%" r="1243.844%" id="i"><stop stop-color="#00B1E7" offset="0%"/><stop stop-color="#0098CD" offset="42.7%"/><stop stop-color="#008DBE" offset="52.44%"/><stop stop-color="#006C91" offset="84.03%"/><stop stop-color="#005F80" offset="100%"/></radialGradient>
+        <radialGradient cx="-737.045%" cy="-360.268%" fx="-737.045%" fy="-360.268%" r="1161.613%" id="j"><stop stop-color="#00B1E7" offset="0%"/><stop stop-color="#0098CD" offset="42.7%"/><stop stop-color="#008DBE" offset="52.44%"/><stop stop-color="#006C91" offset="84.03%"/><stop stop-color="#005F80" offset="100%"/></radialGradient>
+    </defs>
+    <g fill-rule="nonzero" fill="none"><path
+        d="M6.56 9.714V7.86s-.1-1.45-1.627-1.45H2.557v3.304H.117V.19H6.04s3.09-.372 3.09 2.787C9.13 4.62 7.762 5.2 7.762 5.2s1.186.55 1.186 2.162v2.352H6.56M2.557 4.17H5.08c.732 0 1.334-.403 1.334-.902 0-.5-.602-.904-1.335-.904H2.556V4.17"
+        transform="translate(35.232 -.096)"
+        fill="url(#a)"/><path
+        d="M22.04 9.714l-3.872-6.366v6.366H13.388l-.864-1.998H8.068L7.22 9.714H3.4S.113 9.248.113 5.218C.114-.07 3.84.14 3.968.108l3.01.08v2.145l-2.47.03s-1.612 0-1.81 2.08c-.022.24-.032.46-.03.663.008 3.22 2.82 2.22 2.912 2.19L8.605.19h3.414l3.658 8.64V.19h3.448l3.823 6.27V.19h2.456v9.524H22.04M9.11 5.282h2.373l-1.17-2.837L9.11 5.282"
+        transform="translate(48.54 -.096)"
+        fill="url(#b)"/><path
+        d="M21.798 9.53V2.957L18.74 9.53h-2l-3.073-6.543V9.53H8.853l-.845-1.997H3.55L2.69 9.53H.02L4.07.007h3.433l3.708 8.752V.006h3.855L17.75 5.92 20.418.007h3.854V9.53h-2.474M4.59 5.1h2.375L5.78 2.26 4.59 5.1"
+        transform="translate(.85 .087)"
+        fill="url(#c)"/><path d="M.11 9.53V.007h7.614V2.23H2.568v1.466h5.026v2.16H2.568V7.47h5.156v2.06H.11" transform="translate(26.36 .087)" fill="url(#d)"/><path d="M.157 9.564V.006h2.455v9.558H.157" transform="translate(45.214 .087)" fill="url(#e)"/>
+        <g><path
+            d="M6.55 9.56V7.708s-.1-1.45-1.627-1.45H2.55V9.56H.107V.036h5.92s3.09-.37 3.09 2.79c0 1.643-1.365 2.224-1.365 2.224s1.172.546 1.172 2.157V9.56H6.55m-4-5.543h2.52c.73 0 1.333-.402 1.333-.903 0-.5-.602-.902-1.332-.902H2.55v1.805"
+            transform="translate(44.66 16.21)"
+            fill="url(#f)"/><path
+            d="M16.534 9.73h-2.132L11.82 6.906 9.213 9.73H.14V.186H9.02l2.8 3.03L14.63.202h1.87V.187h5.92s3.09-.34 3.09 2.803c0 2.805-1.025 3.676-4.18 3.676h-2.39V9.73h-2.408m-3.057-4.69l3.025 3.32V1.733L13.477 5.04M2.597 7.667h5.138l2.407-2.627-2.407-2.614h-5.14v1.466h5.01v2.162h-5.01v1.613m16.346-3.484h2.522c.732 0 1.334-.403 1.334-.903 0-.498-.602-.903-1.334-.903h-2.52v1.806"
+            fill="url(#g)"
+            transform="translate(18.41 16.026)"/><path
+            d="M4.703 9.53H.36V7.336h3.807s1.366.162 1.366-.755c0-.856-2.065-.79-2.065-.79S.1 6.08.1 2.953C.1-.157 3.14.02 3.14.02h4.687v2.223H4.054s-1.303-.258-1.303.68c0 .786 1.773.674 1.773.674s3.725-.273 3.725 2.596c0 3.076-2.4 3.35-3.25 3.35-.184 0-.295-.013-.295-.013"
+            transform="translate(63.144 16.21)"
+            fill="url(#h)"/><path d="M.147 9.546V.036h7.61v2.207H2.6V3.71H7.63v2.16H2.6v1.614h5.157v2.062H.147" transform="translate(54.64 16.21)" fill="url(#i)"/><path
+            d="M4.618 9.53H.275V7.336h3.79s1.383.162 1.383-.755c0-.856-2.064-.79-2.064-.79S.016 6.08.016 2.953C.016-.157 3.056.02 3.056.02h4.67v2.223h-3.76s-1.3-.258-1.3.68c0 .786 1.774.674 1.774.674s3.724-.273 3.724 2.596c0 3.076-2.4 3.35-3.25 3.35-.184 0-.296-.013-.296-.013"
+            transform="translate(71.832 16.21)"
+            fill="url(#j)"/></g>
+    </g>
+</svg>
