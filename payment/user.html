@@ -1,0 +1,233 @@
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3>User Detail</h3>
+    </div>
+</div>
+<div id="sec-payment-user" class="panel-collapse collapse">
+    <br/>
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12" ng-if="!hasUser">
+            <div class="control-container">
+                <label for="cbRadioReg" class="radioCtrl rounded">
+                    <input id="cbRadioReg" type="radio" name="panelType" value="reg"
+                           ng-model="$parent.panelType"/>
+                    <span class="toggle"></span>
+                </label>
+                <label for="cbRadioReg" class="title">Register a New Account</label>
+            </div>
+            <div class="control-container">
+                <label for="cbRadioLog" class="radioCtrl rounded">
+                    <input id="cbRadioLog" type="radio" name="panelType" value="log"
+                           ng-model="$parent.panelType"/>
+                    <span class="toggle"></span>
+                </label>
+                <label for="cbRadioLog" class="title">Login with Existing Account</label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12" ng-if="!hasUser && panelType=='reg'">
+            <div class="well well-noborder well-sm compact">
+                <form role="form" novalidate class="form-horizontal" name="frmLogin">
+                    <div class="form-group">
+                        <label for="txtName" class="control-label col-md-4 col-sm-12">Full Name:</label>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="input-group">
+                                        <span class="input-group-addon" id="addon-txtName">
+                                            <i class="glyphicon glyphicon-user primary-color"></i>
+                                        </span>
+                                <input class="form-control" id="txtName" type="text" ng-model="user.name"
+                                       aria-describedby="addon-txtName" ng-required="true"
+                                       min="0"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtDoB" class="control-label col-md-4 col-sm-12">Date of Birth:</label>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="input-group">
+                                        <span class="input-group-addon" id="addon-txtDoB">
+                                        <i class="glyphicon glyphicon-calendar primary-color"></i>
+                                        </span>
+                                <input class="form-control" id="txtDoB"
+                                       type="date"
+                                       ng-model="user.DoB"
+                                       aria-describedby="addon-txtDoB" ng-required="true"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtStreetAddress" class="control-label col-md-4 col-sm-12">Street
+                            Address:</label>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="input-group">
+                                        <span class="input-group-addon" id="addon-txtStreetAddress">
+                                        <i class="glyphicon glyphicon-globe primary-color"></i>
+                                        </span>
+                                <textarea class="form-control" id="txtStreetAddress" rows="3"
+                                          ng-model="user.streetAddress"
+                                          aria-describedby="addon-txtStreetAddress" ng-required="true"
+                                          maxlength="75"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtCity" class="control-label col-md-4 col-sm-12">City:</label>
+                        <div class="col-md-8 col-sm-12">
+                            <input class="form-control" id="txtCity" type="text" ng-model="user.city"
+                                   aria-describedby="addon-txtCity" ng-required="true"
+                                   min="0"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtState" class="control-label col-md-4 col-sm-12">State:</label>
+                        <div class="col-md-8 col-sm-12">
+                            <input class="form-control" id="txtState" type="text" ng-model="user.state"
+                                   aria-describedby="addon-txtState" ng-required="true"
+                                   min="0"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtCountry" class="control-label col-md-4 col-sm-12">Country:</label>
+                        <div class="col-md-8 col-sm-12">
+                            <input class="form-control" id="txtCountry" type="text" ng-model="user.country"
+                                   aria-describedby="addon-txtCountry" ng-required="true"
+                                   min="0"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtZip" class="control-label col-md-4 col-sm-12">Zip:</label>
+                        <div class="col-md-8 col-sm-12">
+                            <input class="form-control" id="txtZip" type="number" ng-model="user.zip"
+                                   aria-describedby="addon-txtZip" ng-required="true"
+                                   min="0"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtEmail" class="control-label col-md-4 col-sm-12">Email:</label>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="input-group">
+                                        <span class="input-group-addon" id="addon-txtEmail">
+                                        <i class="glyphicon glyphicon-envelope primary-color"></i>
+                                        </span>
+                                <input class="form-control" id="txtEmail" type="email" ng-model="user.email"
+                                       aria-describedby="addon-txtEmail" ng-required="true"
+                                       min="0"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtPassword" class="control-label col-md-4 col-sm-12">Password:</label>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="input-group">
+                                        <span class="input-group-addon" id="addon-txtPassword">
+                                        <i class="glyphicon glyphicon-lock primary-color"></i>
+                                        </span>
+                                <input class="form-control" id="txtPassword"
+                                       data-ng-attr-type="{{regShowPassword ? 'text': 'password'}}"
+                                       data-ng-model="user.password"
+                                       data-ng-required="true" aria-describedby="addon-txtPassword" min="0"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control-container">
+                        <div class="col-md-offset-4 col-md-8 col-sm-12">
+                            <label for="cbRegShowPassword" class="radioCtrl">
+                                <input id="cbRegShowPassword" type="checkbox" name="showPassword"
+                                       ng-model="$parent.regShowPassword"/>
+                                <span class="toggle"></span>
+                            </label>
+                            <label for="cbRegShowPassword" class="title">Show Password</label>
+                        </div>
+                    </div>
+                    <div class="col-md-offset-4 col-md-8 col-sm-12" ng-if="hasRegisterError">
+                        <div class="alert alert-danger alert-dismissable">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                            <span>Registration Failed!</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-4 col-md-8 col-sm-12">
+                            <input class="btn btn-secondary" type="submit" ng-click="userRegister()"
+                                   ng-disabled="frmLogin.$invalid" value="Register"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12" ng-if="!hasUser && panelType=='log'">
+            <div class="well well-noborder well-sm compact">
+                <form role="form" novalidate class="form-horizontal" name="frmLogin">
+                    <div class="form-group">
+                        <label for="txtLoginEmail" class="control-label col-md-4 col-sm-12">Username
+                            (Email):</label>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="input-group">
+                                        <span class="input-group-addon" id="addon-txtLoginEmail">
+                                        <i class="glyphicon glyphicon-envelope primary-color"></i>
+                                        </span>
+                                <input class="form-control" id="txtLoginEmail" type="email"
+                                       data-ng-model="user.email"
+                                       aria-describedby="addon-txtLoginEmail" data-ng-required="true"
+                                       min="0"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtLoginPassword" class="control-label col-md-4 col-sm-12">Password:</label>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="input-group">
+                                        <span class="input-group-addon" id="addon-txtLoginPassword">
+                                        <i class="glyphicon glyphicon-lock primary-color"></i>
+                                        </span>
+                                <input class="form-control" id="txtLoginPassword"
+                                       data-ng-attr-type="{{logShowPassword ? 'text': 'password'}}"
+                                       data-ng-model="user.password"
+                                       aria-describedby="addon-txtLoginPassword" data-ng-required="true"
+                                       min="0"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control-container">
+                        <div class="col-md-offset-4 col-md-8 col-sm-12">
+                            <label for="cbLogShowPassword" class="radioCtrl">
+                                <input id="cbLogShowPassword" type="checkbox" name="showPassword"
+                                       ng-model="$parent.logShowPassword"/>
+                                <span class="toggle"></span>
+                            </label>
+                            <label for="cbLogShowPassword" class="title">Show Password</label>
+                        </div>
+                    </div>
+                    <div class="col-md-offset-4 col-md-8 col-sm-12" ng-if="hasLoginError">
+                        <div class="alert alert-danger alert-dismissable">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                            <span>Login Failed!</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-4 col-md-8 col-sm-12">
+                            <input class="btn btn-secondary" type="submit" ng-click="userLogin()"
+                                   ng-disabled="frmLogin.$invalid" value="Login"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12" ng-if="hasUser">
+            <div class="well well-noborder well-sm">
+                <div class="well well-white well-noborder">
+                    You are logged in as: <strong>{{loggedInUser.name}} ({{loggedInUser.email}})</strong><br/>
+                </div>
+                <button class="btn btn-secondary" ng-click="userLogout()">Logout</button>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <button class="btn btn-lg btn-tertiary" data-toggle="collapse" data-parent="#accordion"
+                    href="#sec-payment-detail">Back
+            </button>
+            <button class="btn btn-lg btn-primary" data-ng-disabled="!hasUser" ng-click="continueStepTwo()">
+                Continue
+            </button>
+        </div>
+    </div>
+</div>

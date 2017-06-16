@@ -1,0 +1,43 @@
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Your Portal for International Payments</div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <select id="slPurpose" class="selectpicker btn-group-lg" data-max-options="1" multiple
+                                data-live-search="true" data-width="100%"
+                                data-size="5" data-none-selected-text="Send Money For ..." ng-model="purposes"
+                                ng-change="purposeSelect()">
+                            <option value="education">Education</option>
+                            <option value="insurance">Insurance</option>
+                            <option value="currency">Purchase Of Currency</option>
+                            <option value="busines">Business</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <select id="slTarget" class="selectpicker btn-group-lg" disabled data-max-options="1" multiple
+                                data-live-search="true" data-width="100%"
+                                data-size="5" data-none-selected-text="Select Purpose First" data-container="body"
+                                ng-model="targets"
+                                ng-change="targetSelect()">
+                            <option>Hot Dog, Fries and a Soda</option>
+                            <option>Burger, Shake and a Smile</option>
+                            <option>Sugar, Spice and all things nice</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-1 col-sm-2"></div>
+                <div class="col-md-4 col-xs-10 col-sm-8">
+                    <button class="btn btn-lg btn-primary" ng-disabled="!(targets.length && purposes.length)"
+                            ng-click="continuePay()">Continue
+                    </button>
+                </div>
+                <div class="col-md-4 col-xs-1 col-sm-2"></div>
+            </div>
+        </div>
+    </div>
+</header>
